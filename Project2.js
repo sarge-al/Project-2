@@ -10,6 +10,7 @@ function myEach(arr, call){
 	for (let i=0; i<arr.length; i++){
 		call(arr[i]);
 	}
+}
 
 //Without using the native “Array.prototype.map” method of JavaScript, compose a function titled “myMap” that will take in an array of elements and executes a callback function on each of those elements.
 function myMap(arr, call){
